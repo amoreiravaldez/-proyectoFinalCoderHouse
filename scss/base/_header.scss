@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import 'variables';
+
+header {
+    display: flex;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 1px;
+    background-color: map-get($colores-diseno, navsBackgroundColor);
+        
+        div {
+        
+            a {
+        
+                img {
+                    height: 40px;
+                    margin-left: 30px;
+                    margin-right: 20px;
+                    margin-bottom: 10px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+            }
+        }
+
+        nav {
+            font-size: 20px;
+            font-family: 'Titillium Web', sans-serif;
+            display: inline-block;
+            vertical-align: middle;
+            
+            ul {
+                margin-bottom: 0;
+                padding-left: 0;
+                
+                li {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin: 6px;
+
+                    &:hover {
+                        background-color: rgba(26, 234, 221,0.2);
+                        
+                        ul {
+                            background-color: map-get($colores-diseno, navsBackgroundColor);
+                            display:block;
+                        }
+                    }
+
+                    a {
+                        color: map-get($colores-diseno, navsFontColor);
+                        text-decoration: none;
+                    }
+                }
+
+                ul {
+                    padding: 12px 0 0px 0;
+                    width:130px;
+                    position: absolute;
+                    display: none;
+                    
+                    li {
+                        max-width: 140px;
+                        margin: 0;
+                        padding: 10px 0 10px 10px;
+                        font-family: 'Titillium Web', sans-serif;
+                        font-size: 15px;
+                        text-align:left;
+                        display: block;
+
+                    }
+                }
+            }
+        }
+}

@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../multimedia/images/background.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 1px;
+  background-color: white;
+}
+header div a img {
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+header nav {
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  display: inline-block;
+  vertical-align: middle;
+}
+header nav ul {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+header nav ul li {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 6px;
+}
+header nav ul li:hover {
+  background-color: rgba(26, 234, 221, 0.2);
+}
+header nav ul li:hover ul {
+  background-color: white;
+  display: block;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header nav ul ul {
+  padding: 12px 0 0px 0;
+  width: 130px;
+  position: absolute;
+  display: none;
+}
+header nav ul ul li {
+  max-width: 140px;
+  margin: 0;
+  padding: 10px 0 10px 10px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 15px;
+  text-align: left;
+  display: block;
+}
+
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 10px;
+  background-color: white;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+footer section {
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+footer .footer-logo-section {
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  font-family: "Titillium Web", sans-serif;
+}
+footer .footer-logo-section div a img {
+  height: 150px;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+footer .footer-contenido {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer .footer-contenido div .h3-section {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+footer .footer-contenido div .custom-ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+footer .footer-contenido div .custom-ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+footer .footer-iconos {
+  display: flex;
+}
+footer .footer-iconos .iconos-redes {
+  display: flex;
+}
+footer .footer-iconos .iconos-redes img {
+  height: 100%;
+  width: 100%;
+}
+footer .footer-iconos .iconos-redes div {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  margin: 0 30px;
+}
+footer .footer-iconos .iconos-redes div:hover {
+  animation: temblar 150ms 2 linear;
+}
+footer .derechos {
+  margin-top: auto;
+}
+footer .derechos p {
+  padding: 0 30px;
+}
+
+@keyframes temblar {
+  0% {
+    transform: translate(4px, 0);
+  }
+  50% {
+    transform: translate(-4px, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+.index {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.index section {
+  margin-top: 40px;
+}
+.index section div {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.index section div h1 {
+  font-size: 65px;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+}
+.index section div p {
+  margin-top: 30px;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+}
+.index section div form button {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #1AEADD;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  font-family: "Titillium Web", sans-serif;
+  cursor: pointer;
+}
+.index section div form button:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
+  background-size: 400% 400%;
+  animation: Gradient 2s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+.adoptar .adoptar-main {
+  padding-top: 40px;
+}
+.adoptar .adoptar-main .adoptar-seccion {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 93vw;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 20% 15% 65%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "img1ad lg1ad ds1ad" "img2ad lg2ad ds2ad" "img3ad lg3ad ds3ad";
+  grid-gap: 1rem;
+  vertical-align: middle;
+}
+.adoptar .adoptar-main .adoptar-seccion .img1ad {
+  grid-area: img1ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .img2ad {
+  grid-area: img2ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .img3ad {
+  grid-area: img3ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  grid-area: lg1ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  grid-area: lg2ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  grid-area: lg3ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .ds1ad {
+  grid-area: ds1ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .ds2ad {
+  grid-area: ds2ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .ds3ad {
+  grid-area: ds3ad;
+}
+.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
+  transform: translateX(700px) translateY(200px) scale(3);
+}
+.adoptar .adoptar-main .adoptar-seccion .dogs2:hover img {
+  transform: translateX(700px) scale(3);
+}
+.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
+  transform: translateX(700px) translateY(-200px) scale(3);
+}
+.adoptar .adoptar-main .adoptar-seccion img {
+  height: 180px;
+}
+.adoptar .adoptar-main .adoptar-seccion div p {
+  margin-bottom: 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+}
+.adoptar .adoptar-main .adoptar-seccion .nombres {
+  font-weight: bold;
+}
+
+.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+.colaborar .colaborar-main {
+  padding-top: 40px;
+}
+.colaborar .colaborar-main .colaborar-seccion {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 93vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.colaborar .colaborar-main .colaborar-seccion p {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+.colaborar .colaborar-main .colaborar-seccion div {
+  justify-self: center;
+  align-self: center;
+}
+.colaborar .colaborar-main .colaborar-seccion img {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-bottom: 40px;
+}
+.colaborar .colaborar-main .colaborar-seccion iframe {
+  margin-top: 20px;
+}
+
+.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+.reencuentros .reencuentros-main {
+  padding-top: 40px;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 93vw;
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "img1re ds1re" "img2re ds2re" "img3re ds3re";
+  grid-gap: 1rem;
+  vertical-align: middle;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .img1re {
+  grid-area: img1re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .img2re {
+  grid-area: img2re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .img3re {
+  grid-area: img3re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .ds1re {
+  grid-area: ds1re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .ds2re {
+  grid-area: ds2re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .ds3re {
+  grid-area: ds3re;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion img {
+  height: 180px;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion div p {
+  margin-bottom: 30px;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+}
+.reencuentros .reencuentros-main .reencuentros-seccion .nombres {
+  font-weight: bold;
+}
+
+.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
+  transition: all 1s;
+  position: absolute;
+  border: black solid;
+  border-top-width: 10px;
+  border-left-width: 100px;
+  border-right-width: 100px;
+  border-bottom-width: 10px;
+}
+
+.contacto-main .mensaje {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 10%;
+  left: 35%;
+  width: 30em;
+  height: 50%;
+}
+.contacto-main .mensaje .mensaje-p {
+  align-items: center;
+  font-size: 25px;
+  color: var(--navsFontColor);
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 0;
+}
+.contacto-main .contactos-carousel {
+  width: 640px;
+  height: 360px;
+  position: relative;
+  margin: 30px auto;
+}
+.contacto-main .contacto-main-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contacto-main .contacto-main-form div {
+  border-radius: 30px;
+  border: 3px;
+  border-style: solid;
+  border-color: #1AEADD;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 10%;
+  left: 35%;
+  width: 30em;
+}
+.contacto-main .contacto-main-form div h2 {
+  font-size: 30px;
+  color: var(--navsFontColor);
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.contacto-main .contacto-main-form div form span {
+  font-family: "Titillium Web", sans-serif;
+  margin-right: 20px;
+}
+.contacto-main .contacto-main-form div form input {
+  font-family: "Titillium Web", sans-serif;
+  margin-right: 20px;
+  width: 350px;
+}
+.contacto-main .contacto-main-form div form textarea {
+  margin-top: 20px;
+  padding: 10px;
+  height: 200px;
+  width: 400px;
+  font-family: "Titillium Web", sans-serif;
+  resize: none;
+}
+.contacto-main .contacto-main-form div p {
+  margin-top: 30px;
+  color: black;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 25px;
+}
+.contacto-main .contacto-main-form button {
+  width: 100%;
+  background-color: #1AEADD;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+.contacto-main .contacto-main-form button:hover {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
+  background-size: 400% 400%;
+  animation: Gradient 2s ease infinite;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,71 @@
+@import '../base/variables';
+
+.index {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    section {
+        margin-top: 40px;
+
+        div {
+            border-radius: 30px;
+            border: 3px;
+            border-style:solid;
+            border-color: #1AEADD;
+            padding: 30px;
+            background-color:rgba(255, 255, 255, .7);
+
+            h1 {
+                font-size: 65px;
+                color: map-get($colores-diseno, navsFontColor);
+                font-family: 'Dancing Script', cursive;
+                font-style: italic;
+            }
+
+            p {
+                margin-top: 30px;
+                color: black;
+                font-family: 'Titillium Web', sans-serif;
+                font-size: 25px;
+            }
+
+            form {
+
+                button {
+                    margin-top: 20px;
+                    width: 100%;
+                    background-color:#1AEADD;
+                    border: none;
+                    border-radius: 50px;
+                    color: white;
+                    padding: 15px 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 22px;
+                    font-family: 'Titillium Web', sans-serif;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
+                        background-size: 400% 400%;
+                        animation: Gradient 2s ease infinite;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

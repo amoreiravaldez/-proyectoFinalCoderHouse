@@ -1,0 +1,23 @@
+@import 'base/variables';
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-image: $backgroundImage; 
+    background-repeat:repeat-y;
+    background-size: cover;
+    overflow-x:hidden;  
+    height: 100vh;
+    width: 100vw;
+}
+
+@import 'base/header';
+@import 'base/footer';
+@import 'components/index';
+@import 'components/adoptar';
+@import 'components/colaborar';
+@import 'components/reencuentros';
+@import 'components/contacto';

@@ -1,0 +1,102 @@
+@import '../base/variables';
+
+.adoptar {
+
+    .adoptar-main {
+        
+        padding-top: 40px;
+        
+        .adoptar-seccion {
+
+            border-radius: 30px;
+            border: 3px;
+            border-style:solid;
+            border-color: #1AEADD;
+            padding: 30px;
+            background-color:rgba(255, 255, 255, .9);
+            margin-left: 30px;
+            margin-right: 30px;
+            width: 93vw;
+            display: grid;
+            grid-auto-rows: 1fr;
+            grid-template-columns: 20%  15% 65%;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+            "img1ad lg1ad ds1ad"
+            "img2ad lg2ad ds2ad"
+            "img3ad lg3ad ds3ad"; 
+            grid-gap: 1rem;
+            vertical-align: middle;
+
+            .img1ad { grid-area: img1ad; }
+            .img2ad { grid-area: img2ad; }
+            .img3ad { grid-area: img3ad; }
+            .lg1ad { grid-area: lg1ad; }
+            .lg2ad { grid-area: lg2ad; }
+            .lg3ad { grid-area: lg3ad; }
+            .ds1ad { grid-area: ds1ad; }
+            .ds2ad { grid-area: ds2ad; }
+            .ds3ad { grid-area: ds3ad; }
+            
+            .dogs1 {
+
+                &:hover {
+
+                    img {
+
+                        transform:translateX(700px) translateY(200px) scale(3);
+                        @extend %border-animacion;
+
+                    }
+                }
+            }
+
+            .dogs2 {
+
+                &:hover {
+
+                    img {
+
+                        transform:translateX(700px) scale(3);
+                        @extend %border-animacion;
+
+                    }
+                }
+            }
+
+            .dogs3 {
+
+                &:hover {
+
+                    img {
+
+                        transform:translateX(700px) translateY(-200px) scale(3);
+                        @extend %border-animacion;
+
+                    }
+                }
+            }
+            
+            img {
+
+                height: 180px;
+            }
+
+            div {
+
+                p {
+                    margin-bottom: 30px;
+                    font-family: 'Titillium Web', sans-serif;
+                    font-style: italic;
+                }
+            }
+
+            .nombres {
+                
+                font-weight: bold;
+            }
+
+            
+        }
+    }
+}

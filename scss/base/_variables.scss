@@ -1,0 +1,29 @@
+
+// Background - Variable
+
+$backgroundImage: url("../multimedia/images/background.jpg");
+
+// Inclusión de Mixin
+
+@mixin frame-imagenes {
+    border-top-width: 10px;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    border-bottom-width: 10px;
+}
+
+// Inclusión de Mapas
+
+$colores-diseno: (
+    navsBackgroundColor: white,
+    navsFontColor: black
+);
+
+// Extends
+
+%border-animacion {
+    transition: all 1s; 
+    position:absolute;
+    border:black solid;
+    @include frame-imagenes;
+}

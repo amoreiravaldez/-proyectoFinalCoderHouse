@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Keywords -->
+    
+    <meta name="keywords" content="PERROS, GATOS, ANIMALES, MASCOTAS, RESCATE, ADOPCION, MALTRATO ANIMAL, ASOCIACIONES, ARGENTINA">
+
+    <!-- Description -->
+    
+    <meta name="description" content="Portal creado para reconocer el esfuerzo de las organizaciones dedicadas al rescate de animales y a actuar como intermediario para facilitar el acceso de estas organizaciones al soporte de todo tipo.">
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+    <!-- Etiqueta que permite conectar el archivo CSS  -->
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Inicio   - HogAR</title>
+</head>
+
+<body>
+
+    <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
+    <header class="container-fluid">
+        <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
+        <div class="div-logo d-flex d-none d-sm-none d-md-flex col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+            <a href="#">
+                <img class="header-logo" src="multimedia/images/logo.png" alt="Logo de la página web.">
+            </a>
+        </div>   
+
+        <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
+        <nav class="nav d-flex col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11 col-xxl-11 justify-content-center justify-content-sm-end">
+            <ul>
+                <li class="d-block d-sm-inline-block"><a href="index.html">Inicio</a></li>
+                <li class="d-block d-sm-inline-block"><a href="page/adoptar.html">Adoptá!</a></li>
+                <li class="d-block d-sm-inline-block">
+                    <a href="page/colaborar.html">Colaborá!</a>
+                    <ul class="dropdown-content">
+                        <li><a href="page/colaborar.html">Amigo a Casa</a></li>
+                        <li><a href="page/colaborar.html">Proyecto 4 Patas</a></li>
+                        <li><a href="page/colaborar.html">Patitas Glew</a></li>
+                    </ul>
+                </li>
+                <li class="d-block d-sm-inline-block"><a href="page/reencuentros.html">Reencuentros!</a></li>
+                <li class="d-block d-sm-inline-block"><a href="page/contacto.html">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="index container-fluid">
+        <section class="index-main">
+            
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4">
+                
+                <!-- Título relacionado  -->
+                <h1>“El amor por todas las criaturas vivientes es el más noble atributo del hombre."</h1>
+                
+                <!-- Texto debajo del H1 en forma de párrafo.  -->
+                <p class="contenido-inicio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque consequuntur rerum ipsum exercitationem animi saepe tempore ab tenetur, ipsa fuga, unde similique nihil perspiciatis consectetur.</p>
+                
+                <!-- Incluyo un botón como un llamado a la acción para posteriormente dirigirlo a alguna de las secciones de la página. No sé como configurarlo todavía por lo cual solo dejo la etiqueta como placeholder. -->
+                <form action="page/colaborar.html">
+                    <button type="submit">Ayudanos!</button>
+                </form>
+            
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="container-fluid">
+        
+        <!-- Sección para el logo -->
+        <section class="footer-logo-section d-none d-sm-none d-md-none d-lg-none d-xl-flex col-xl-4 col-xxl-4">
+            <div>
+                <a href="#">
+                    <img class="footer-logo" src="multimedia/images/logo.png" alt="Logo de la página web.">
+                </a>
+            </div>   
+        </section>
+
+        <!-- Sección para el contenido del footer -->
+        <section class="footer-contenido col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+
+            <!-- Primer columna sirve para navegar dentro de la plataforma -->
+            <div>
+                <h3 class="h3-section">Plataforma</h3>
+                <ul class="custom-ul">
+                    <li>
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="page/adoptar.html">Adoptá!</a>
+                    </li>
+                    <li>
+                        <a href="page/colaborar.html">Colaborá!</a>
+                    </li>
+                    <li>
+                        <a href="page/reencuentros.html">Reencuentros!</a>
+                    </li>
+                    <li>
+                        <a href="page/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
+            <div class="d-none d-sm-block">
+                <h3 class="h3-section">Institucional</h3>
+                <ul class="custom-ul">
+                    <li>
+                        <a href="page/contacto.html">Quiénes Somos?</a>
+                    </li>
+                </ul>
+            </div>
+
+        <!-- La tercer columna va a mostrar links relacionados a contactos externos -->
+            <div>
+                <h3 class="h3-section">Enlaces útiles</h3>
+                <ul class="custom-ul">
+                    <li>
+                        <a href="https://www.argentina.gob.ar/justicia/derechofacil/leysimple/maltrato-animales#titulo-2" target="_blank">Denuncia Maltrato Animal</a>
+                    </li>
+                    <li>
+                        <a href="tel:555-555-5555">Teléfonos</a>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
+        <section class="flex-column footer-iconos col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+            <!-- Logo de Instagram -->
+            <div class="iconos-redes d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center justify-content-center"> 
+
+                <!-- Logo de Instagram -->
+                <div>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="multimedia/images/instagram.png" alt="Logo de Instagram">
+                    </a>
+                </div>   
+    
+                <!-- Logo de Twitter -->
+    
+                <div>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="multimedia/images/twitter.png" alt="Logo de Twitter">
+                    </a>
+                </div>    
+                
+                <!-- Logo de Facebook -->
+    
+                <div>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="multimedia/images/facebook.png" alt="Logo de Facebook">
+                    </a>
+                </div>   
+
+            </div>
+
+            <div class="derechos d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center d-sm-none d-none d-lg-flex">
+                <p>Todos los derechos reservados - Argentina</p>
+            </div>
+            
+            
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
+
+</body>
+</html>
