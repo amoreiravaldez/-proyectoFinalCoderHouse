@@ -49,15 +49,28 @@ header div a img {
   display: inline-block;
   vertical-align: middle;
 }
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header div {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  header div {
+    display: none;
+  }
+}
 header nav {
   font-size: 20px;
   font-family: "Titillium Web", sans-serif;
-  display: inline-block;
+  display: flex;
   vertical-align: middle;
+  margin-left: auto;
+  padding-right: 10px;
 }
 header nav ul {
   margin-bottom: 0;
   padding-left: 0;
+  display: flex;
 }
 header nav ul li {
   display: inline-block;
@@ -75,6 +88,46 @@ header nav ul li a {
   color: black;
   text-decoration: none;
 }
+@media only screen and (min-width: 1400px) {
+  header nav ul #menu-nav-small {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  header nav ul #menu-nav-small {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header nav ul #menu-nav-small {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header nav ul #menu-nav-small {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header nav ul #menu-nav-small {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (max-width: 575px) {
+  header nav ul #menu-nav-small {
+    justify-content: flex-start;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header nav ul .menu-nav-big {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  header nav ul .menu-nav-big {
+    display: none;
+  }
+}
 header nav ul ul {
   padding: 12px 0 0px 0;
   width: 130px;
@@ -89,6 +142,16 @@ header nav ul ul li {
   font-size: 15px;
   text-align: left;
   display: block;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  header nav {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  header nav {
+    margin-left: 20px;
+  }
 }
 
 .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
@@ -110,6 +173,36 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media only screen and (min-width: 1400px) {
+  footer {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  footer {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  footer {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer {
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  footer {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 575px) {
+  footer {
+    justify-content: space-around;
+  }
+}
 footer section {
   color: black;
   padding-top: 12px;
@@ -127,9 +220,31 @@ footer .footer-logo-section div a img {
   margin-left: 30px;
   margin-right: 20px;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  footer .footer-logo-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer .footer-logo-section {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  footer .footer-logo-section {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  footer .footer-logo-section {
+    display: none;
+  }
+}
 footer .footer-contenido {
   display: flex;
-  justify-content: space-evenly;
+}
+footer .footer-contenido div {
+  padding: 0 10px 0 10px;
 }
 footer .footer-contenido div .h3-section {
   display: block;
@@ -146,8 +261,27 @@ footer .footer-contenido div .custom-ul li a {
   color: inherit;
   text-decoration: none;
 }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  footer .footer-contenido {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer .footer-contenido {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  footer .footer-contenido {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
 footer .footer-iconos {
   display: flex;
+  flex-direction: column;
 }
 footer .footer-iconos .iconos-redes {
   display: flex;
@@ -165,13 +299,47 @@ footer .footer-iconos .iconos-redes div {
 footer .footer-iconos .iconos-redes div:hover {
   animation: temblar 150ms 2 linear;
 }
-footer .derechos {
+footer .footer-iconos .derechos {
   margin-top: auto;
 }
-footer .derechos p {
+footer .footer-iconos .derechos p {
   padding: 0 30px;
 }
-
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  footer .footer-iconos .derechos {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer .footer-iconos .derechos {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  footer .footer-iconos .derechos {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  footer .footer-iconos .derechos {
+    margin-top: 10px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  footer .footer-iconos {
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  footer .footer-iconos {
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  footer .footer-iconos {
+    align-items: center;
+  }
+}
 @keyframes temblar {
   0% {
     transform: translate(4px, 0);
@@ -208,6 +376,36 @@ footer .derechos p {
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+@media screen and (min-width: 1400px) {
+  .index section div {
+    width: 700px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .index section div {
+    width: 700px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .index section div {
+    width: 700px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .index section div {
+    width: 700px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .index section div {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .index section div {
+    width: 100%;
+  }
+}
 .index section div h1 {
   font-size: 65px;
   color: black;
@@ -219,6 +417,16 @@ footer .derechos p {
   color: black;
   font-family: "Titillium Web", sans-serif;
   font-size: 25px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .index section div p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .index section div p {
+    display: none;
+  }
 }
 .index section div form button {
   margin-top: 20px;

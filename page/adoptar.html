@@ -26,29 +26,39 @@
 <body>
 
     <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
-    <header class="container-fluid">
+    <header>
         <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo d-flex d-none d-sm-none d-md-flex col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+        <div class="div-logo">
             <a href="#">
                 <img class="header-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
         <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
-        <nav class="nav d-flex col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11 col-xxl-11 justify-content-center justify-content-sm-end">
+        <nav>
             <ul>
-                <li class="d-block d-sm-inline-block"><a href="../index.html">Inicio</a></li>
-                <li class="d-block d-sm-inline-block"><a href="adoptar.html">Adoptá!</a></li>
-                <li class="d-block d-sm-inline-block">
+                <li id="menu-nav-small">
+                    <a href="#">Menú!</a>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="adoptar.html">Adoptá!</a></li>
+                        <li><a href="colaborar.html">Colaborá!</a></li>
+                        <li><a href="reencuentros.html">Reencuentros!</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li class="menu-nav-big"><a href="../index.html">Inicio</a></li>
+                <li class="menu-nav-big"><a href="adoptar.html">Adoptá!</a></li>
+                <li class="menu-nav-big">
                     <a href="colaborar.html">Colaborá!</a>
-                    <ul class="dropdown-content">
+                    <ul>
                         <li><a href="colaborar.html">Amigo a Casa</a></li>
                         <li><a href="colaborar.html">Proyecto 4 Patas</a></li>
                         <li><a href="colaborar.html">Patitas Glew</a></li>
                     </ul>
                 </li>
-                <li class="d-block d-sm-inline-block"><a href="reencuentros.html">Reencuentros!</a></li>
-                <li class="d-block d-sm-inline-block"><a href="contacto.html">Contactanos</a></li>
+                <li class="menu-nav-big"><a href="reencuentros.html">Reencuentros!</a></li>
+                <li class="menu-nav-big"><a href="contacto.html">Contactanos</a></li>
             </ul>
         </nav>
     </header>
@@ -93,19 +103,19 @@
         </section>
     </main>
 
-    <footer class="container-fluid">
+    <footer>
         
         <!-- Sección para el logo -->
-        <section class="footer-logo-section d-none d-sm-none d-md-none d-lg-none d-xl-flex col-xl-4 col-xxl-4">
+        <section class="footer-logo-section">
             <div>
-                <a href="../index.html">
+                <a href="#">
                     <img class="footer-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
                 </a>
             </div>   
         </section>
 
         <!-- Sección para el contenido del footer -->
-        <section class="footer-contenido col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+        <section class="footer-contenido">
 
             <!-- Primer columna sirve para navegar dentro de la plataforma -->
             <div>
@@ -129,8 +139,9 @@
                 </ul>
             </div>
 
+
         <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
-            <div class="d-none d-sm-block">
+            <div>
                 <h3 class="h3-section">Institucional</h3>
                 <ul class="custom-ul">
                     <li>
@@ -155,9 +166,9 @@
         </section>
 
         <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
-        <section class="flex-column footer-iconos col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+        <section class="footer-iconos">
             <!-- Logo de Instagram -->
-            <div class="iconos-redes d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center justify-content-center"> 
+            <div class="iconos-redes"> 
 
                 <!-- Logo de Instagram -->
                 <div>
@@ -184,7 +195,7 @@
 
             </div>
 
-            <div class="derechos d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center d-sm-none d-none d-lg-flex">
+            <div class="derechos">
                 <p>Todos los derechos reservados - Argentina</p>
             </div>
             

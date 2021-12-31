@@ -15,6 +15,30 @@
             padding: 30px;
             background-color:rgba(255, 255, 255, .7);
 
+            @media screen and (min-width: 1400px){
+                width: 700px;            
+            }
+            
+            @media screen and (min-width: 1200px) and (max-width: 1399px){
+                width: 700px;  
+            }
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199px){
+                width: 700px;
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 991px){
+                width: 700px;
+            }
+            
+            @media only screen and (min-width: 576px) and (max-width: 767px){
+                width: 100%;
+            }
+            
+            @media only screen and (max-width: 575px){
+                width: 100%;
+            }
+
             h1 {
                 font-size: 65px;
                 color: map-get($colores-diseno, navsFontColor);
@@ -27,6 +51,30 @@
                 color: black;
                 font-family: 'Titillium Web', sans-serif;
                 font-size: 25px;
+
+                @media only screen and (min-width: 1400){
+  
+                }
+                
+                @media only screen and (min-width: 1200) and (max-width: 1399px){
+                  
+                }
+                
+                @media only screen and (min-width: 992) and (max-width: 1199px){
+                  
+                }
+                
+                @media only screen and (min-width: 768px) and (max-width: 991px){
+                  
+                }
+                
+                @media only screen and (min-width: 576px) and (max-width: 767px){
+                    display: none;
+                }
+                
+                @media only screen and (max-width: 575px){
+                    display: none;
+                }
             }
 
             form {

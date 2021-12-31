@@ -9,6 +9,30 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
 
+    @media only screen and (min-width: 1400px){
+        justify-content: space-between;
+    }
+    
+    @media only screen and (min-width: 1200px) and (max-width: 1399px){
+        justify-content: space-between;
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width: 1199px){
+        justify-content: space-around;
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        justify-content: space-around;
+    }
+    
+    @media only screen and (min-width: 576px) and (max-width: 767px){
+        justify-content: space-around;
+    }
+    
+    @media only screen and (max-width: 575px){
+        justify-content: space-around;
+    }
+
     section {
         color: map-get($colores-diseno, navsFontColor); 
         padding-top: 12px;
@@ -31,13 +55,40 @@ footer {
                 }
             }
         }
+
+        @media only screen and (min-width: 1400px){
+  
+        }
+        
+        @media only screen and (min-width: 1200px) and (max-width: 1399px){
+          
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px){
+            display: none;
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px){
+            display: none;
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 767px){
+            display: none;
+        }
+        
+        @media only screen and (max-width: 575px){
+            display: none;
+        }
+        
+        
     }
 
     .footer-contenido {
         display: flex;
-        justify-content:space-evenly;
         
         div {
+
+            padding: 0 10px 0 10px;
 
             .h3-section {
                 display: block;
@@ -59,10 +110,39 @@ footer {
             }
         }
 
+        @media only screen and (min-width: 1400px){
+            
+        }
+        
+        @media only screen and (min-width: 1200px) and (max-width: 1399px){
+          
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px){
+            width: 100%;
+            justify-content: space-around;
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px){
+            width: 100%;
+            justify-content: space-around;
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 767px){
+            width: 100%;
+            justify-content: space-around;
+        }
+        
+        @media only screen and (max-width: 575px){
+          
+        }
+        
+        
     }
 
     .footer-iconos {
         display: flex;
+        flex-direction: column;
         
         .iconos-redes {
             display: flex;
@@ -84,15 +164,65 @@ footer {
             }
 
         }
-    }
-    
-    .derechos {
-        margin-top: auto; 
+
+        .derechos {
+            margin-top: auto; 
+            
+            p {
+                padding: 0 30px;
+            }
+
+            @media only screen and (min-width: 1400px){
+  
+            }
+            
+            @media only screen and (min-width: 1200px) and (max-width: 1399px){
+              
+            }
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199px){
+                margin-top: 10px;              
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 991px){
+                margin-top: 10px;
+            }
+            
+            @media only screen and (min-width: 576px) and (max-width: 767px){
+                margin-top: 10px;          
+            }
+            
+            @media only screen and (max-width: 575px){
+                margin-top: 10px;           
+            }
+            
+        }
+
+        @media only screen and (min-width: 1400px){
+            
+        }
         
-        p {
-            padding: 0 30px;
+        @media only screen and (min-width: 1200px) and (max-width: 1399px){
+          
+        }
+        
+        @media only screen and (min-width: 992px) and (max-width: 1199px){
+            align-items: center;
+        }
+        
+        @media only screen and (min-width: 768px) and (max-width: 991px){
+            align-items: center;
+        }
+        
+        @media only screen and (min-width: 576px) and (max-width: 767px){
+            align-items: center;
+        }
+        
+        @media only screen and (max-width: 575px){
+          
         }
     }
+
 }
 
 @keyframes temblar {

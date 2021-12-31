@@ -21,50 +21,60 @@
     
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Inicio   - HogAR</title>
+    <title>Inicio  - HogAR</title>
 </head>
 
 <body>
 
     <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
-    <header class="container-fluid">
+    <header>
         <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo d-flex d-none d-sm-none d-md-flex col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+        <div class="div-logo">
             <a href="#">
                 <img class="header-logo" src="multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
         <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
-        <nav class="nav d-flex col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11 col-xxl-11 justify-content-center justify-content-sm-end">
+        <nav>
             <ul>
-                <li class="d-block d-sm-inline-block"><a href="index.html">Inicio</a></li>
-                <li class="d-block d-sm-inline-block"><a href="page/adoptar.html">Adoptá!</a></li>
-                <li class="d-block d-sm-inline-block">
+                <li id="menu-nav-small">
+                    <a href="#">Menú!</a>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="page/adoptar.html">Adoptá!</a></li>
+                        <li><a href="page/colaborar.html">Colaborá!</a></li>
+                        <li><a href="page/reencuentros.html">Reencuentros!</a></li>
+                        <li><a href="page/contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li class="menu-nav-big"><a href="index.html">Inicio</a></li>
+                <li class="menu-nav-big"><a href="page/adoptar.html">Adoptá!</a></li>
+                <li class="menu-nav-big">
                     <a href="page/colaborar.html">Colaborá!</a>
-                    <ul class="dropdown-content">
+                    <ul>
                         <li><a href="page/colaborar.html">Amigo a Casa</a></li>
                         <li><a href="page/colaborar.html">Proyecto 4 Patas</a></li>
                         <li><a href="page/colaborar.html">Patitas Glew</a></li>
                     </ul>
                 </li>
-                <li class="d-block d-sm-inline-block"><a href="page/reencuentros.html">Reencuentros!</a></li>
-                <li class="d-block d-sm-inline-block"><a href="page/contacto.html">Contactanos</a></li>
+                <li class="menu-nav-big"><a href="page/reencuentros.html">Reencuentros!</a></li>
+                <li class="menu-nav-big"><a href="page/contacto.html">Contactanos</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="index container-fluid">
+    <main class="index">
         <section class="index-main">
             
-            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-4">
+            <div>
                 
                 <!-- Título relacionado  -->
                 <h1>“El amor por todas las criaturas vivientes es el más noble atributo del hombre."</h1>
                 
                 <!-- Texto debajo del H1 en forma de párrafo.  -->
-                <p class="contenido-inicio">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque consequuntur rerum ipsum exercitationem animi saepe tempore ab tenetur, ipsa fuga, unde similique nihil perspiciatis consectetur.</p>
-                
+                <p class="contenido-inicio">Una persona afortunada es aquella que gana el amor de un animal. Con su amor desinteresado te robarán el corazón. Si queres formar parte de una aventura para conocer a tu nuevo amigo, te esperamos!</p>
+
                 <!-- Incluyo un botón como un llamado a la acción para posteriormente dirigirlo a alguna de las secciones de la página. No sé como configurarlo todavía por lo cual solo dejo la etiqueta como placeholder. -->
                 <form action="page/colaborar.html">
                     <button type="submit">Ayudanos!</button>
@@ -75,10 +85,10 @@
         </section>
     </main>
 
-    <footer class="container-fluid">
+    <footer>
         
         <!-- Sección para el logo -->
-        <section class="footer-logo-section d-none d-sm-none d-md-none d-lg-none d-xl-flex col-xl-4 col-xxl-4">
+        <section class="footer-logo-section">
             <div>
                 <a href="#">
                     <img class="footer-logo" src="multimedia/images/logo.png" alt="Logo de la página web.">
@@ -87,7 +97,7 @@
         </section>
 
         <!-- Sección para el contenido del footer -->
-        <section class="footer-contenido col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+        <section class="footer-contenido">
 
             <!-- Primer columna sirve para navegar dentro de la plataforma -->
             <div>
@@ -112,9 +122,8 @@
             </div>
 
 
-
         <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
-            <div class="d-none d-sm-block">
+            <div>
                 <h3 class="h3-section">Institucional</h3>
                 <ul class="custom-ul">
                     <li>
@@ -139,9 +148,9 @@
         </section>
 
         <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
-        <section class="flex-column footer-iconos col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4 col-xxl-4">
+        <section class="footer-iconos">
             <!-- Logo de Instagram -->
-            <div class="iconos-redes d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center justify-content-center"> 
+            <div class="iconos-redes"> 
 
                 <!-- Logo de Instagram -->
                 <div>
@@ -168,7 +177,7 @@
 
             </div>
 
-            <div class="derechos d-flex justify-content-xxl-end justify-content-xl-end justify-content-md-center justify-content-sm-center d-sm-none d-none d-lg-flex">
+            <div class="derechos">
                 <p>Todos los derechos reservados - Argentina</p>
             </div>
             
