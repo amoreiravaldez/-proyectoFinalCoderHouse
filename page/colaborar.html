@@ -26,29 +26,39 @@
 <body>
 
     <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
-    <header class="container-fluid">
+    <header>
         <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo d-flex d-none d-sm-none d-md-flex col-md-1 col-lg-1 col-xl-1 col-xxl-1">
+        <div class="div-logo">
             <a href="#">
                 <img class="header-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
         <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
-        <nav class="nav d-flex col-12 col-sm-12 col-md-11 col-lg-11 col-xl-11 col-xxl-11 justify-content-center justify-content-sm-end">
+        <nav>
             <ul>
-                <li class="d-block d-sm-inline-block"><a href="../index.html">Inicio</a></li>
-                <li class="d-block d-sm-inline-block"><a href="adoptar.html">Adoptá!</a></li>
-                <li class="d-block d-sm-inline-block">
-                    <a href="colaborar.html">Colaborá!</a>
-                    <ul class="dropdown-content">
+                <li id="menu-nav-small">
+                    <a href="#">Menú!</a>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="adoptar.html">Adoptá!</a></li>
+                        <li><a href="colaborar.html">Colaborá!</a></li>
+                        <li><a href="reencuentros.html">Reencuentros!</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+                <li class="menu-nav-big"><a href="../index.html">Inicio</a></li>
+                <li class="menu-nav-big"><a href="adoptar.html">Adoptá!</a></li>
+                <li class="menu-nav-big">
+                    <a href="#">Colaborá!</a>
+                    <ul>
                         <li><a href="colaborar.html">Amigo a Casa</a></li>
                         <li><a href="colaborar.html">Proyecto 4 Patas</a></li>
                         <li><a href="colaborar.html">Patitas Glew</a></li>
                     </ul>
                 </li>
-                <li class="d-block d-sm-inline-block"><a href="reencuentros.html">Reencuentros!</a></li>
-                <li class="d-block d-sm-inline-block"><a href="contacto.html">Contactanos</a></li>
+                <li class="menu-nav-big"><a href="reencuentros.html">Reencuentros!</a></li>
+                <li class="menu-nav-big"><a href="contacto.html">Contactanos</a></li>
             </ul>
         </nav>
     </header>
