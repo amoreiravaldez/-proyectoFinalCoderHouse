@@ -483,13 +483,75 @@ footer .footer-iconos .derechos p {
   margin-left: 30px;
   margin-right: 30px;
   width: 93vw;
-  display: grid;
-  grid-auto-rows: 1fr;
-  grid-template-columns: 20% 15% 65%;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "img1ad lg1ad ds1ad" "img2ad lg2ad ds2ad" "img3ad lg3ad ds3ad";
-  grid-gap: 1rem;
-  vertical-align: middle;
+}
+@media only screen and (min-width: 1400px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 20% 15% 65%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "img1ad lg1ad ds1ad" "img2ad lg2ad ds2ad" "img3ad lg3ad ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img1ad ds1ad" "img2ad ds2ad" "img3ad ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "img1ad ds1ad" "img2ad ds2ad" "img3ad ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .adoptar .adoptar-main .adoptar-seccion {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
+    grid-gap: 1rem;
+    vertical-align: middle;
+  }
 }
 .adoptar .adoptar-main .adoptar-seccion .img1ad {
   grid-area: img1ad;
@@ -503,11 +565,86 @@ footer .footer-iconos .derechos p {
 .adoptar .adoptar-main .adoptar-seccion .lg1ad {
   grid-area: lg1ad;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+    display: none;
+  }
+}
 .adoptar .adoptar-main .adoptar-seccion .lg2ad {
   grid-area: lg2ad;
 }
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+    display: none;
+  }
+}
 .adoptar .adoptar-main .adoptar-seccion .lg3ad {
   grid-area: lg3ad;
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+    display: none;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+    display: none;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+    display: none;
+  }
 }
 .adoptar .adoptar-main .adoptar-seccion .ds1ad {
   grid-area: ds1ad;
@@ -527,8 +664,35 @@ footer .footer-iconos .derechos p {
 .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
   transform: translateX(700px) translateY(-200px) scale(3);
 }
-.adoptar .adoptar-main .adoptar-seccion img {
-  height: 180px;
+@media only screen and (min-width: 1400px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 160px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 180px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 180px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .adoptar .adoptar-main .adoptar-seccion img {
+    height: 180px;
+  }
 }
 .adoptar .adoptar-main .adoptar-seccion div p {
   margin-bottom: 30px;
