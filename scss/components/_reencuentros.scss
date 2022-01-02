@@ -14,8 +14,8 @@
             border-color: #1AEADD;
             padding: 30px;
             background-color:rgba(255, 255, 255, .9);
-            margin-left: 30px;
-            margin-right: 30px;
+            margin-left: auto;
+            margin-right: auto;
             width: 93vw;
 
             @media only screen and (min-width: 1400px){
@@ -109,38 +109,16 @@
                 vertical-align: middle;                    
             }
 
-            .img1re { grid-area: img1re; }
-            .img2re { grid-area: img2re; }
-            .img3re { grid-area: img3re; }
-            .ds1re { grid-area: ds1re; }
-            .ds2re { grid-area: ds2re; }
-            .ds3re { grid-area: ds3re; }
+            .img1re { grid-area: img1re; max-width: 400px; margin-left: auto; margin-right: auto;}
+            .img2re { grid-area: img2re; max-width: 400px; margin-left: auto; margin-right: auto;}
+            .img3re { grid-area: img3re; max-width: 400px; margin-left: auto; margin-right: auto;}
+            .ds1re { grid-area: ds1re; padding: 0 1vw;}
+            .ds2re { grid-area: ds2re; padding: 0 1vw;}
+            .ds3re { grid-area: ds3re; padding: 0 1vw; }
 
             img {
 
-                @media only screen and (min-width: 1400px){
-                    height: 180px;
-                }
-                
-                @media only screen and (min-width: 1200px) and (max-width: 1399px){
-                    height: 180px;
-                }  
-                
-                @media only screen and (min-width: 992px) and (max-width: 1199px){
-                    height: 160px;
-                }
-                
-                @media only screen and (min-width: 768px) and (max-width: 991px){
-                    height: 180px;
-                }
-                
-                @media only screen and (min-width: 576px) and (max-width: 767px){
-                    height: 180px;
-                }
-                
-                @media only screen and (max-width: 575px){
-                    height: 180px;
-                }
+                max-width: 100%; height: auto;
             }
 
             div {
