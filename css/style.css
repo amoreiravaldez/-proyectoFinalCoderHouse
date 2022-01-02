@@ -1,15 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -22,16 +12,6 @@ body {
   overflow-x: hidden;
   height: 100vh;
   width: 100vw;
-}
-
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
 }
 
 header {
@@ -152,16 +132,6 @@ header nav ul ul li {
   header nav {
     margin-left: 20px;
   }
-}
-
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
 }
 
 footer {
@@ -351,16 +321,6 @@ footer .footer-iconos .derechos p {
     transform: translate(0, 0);
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
-}
-
 .index {
   margin-left: 10px;
   margin-right: 10px;
@@ -460,16 +420,6 @@ footer .footer-iconos .derechos p {
     background-position: 0% 50%;
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
-}
-
 .adoptar .adoptar-main {
   padding-top: 40px;
 }
@@ -655,15 +605,6 @@ footer .footer-iconos .derechos p {
 .adoptar .adoptar-main .adoptar-seccion .ds3ad {
   grid-area: ds3ad;
 }
-.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img {
-  transform: translateX(700px) translateY(200px) scale(3);
-}
-.adoptar .adoptar-main .adoptar-seccion .dogs2:hover img {
-  transform: translateX(700px) scale(3);
-}
-.adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
-  transform: translateX(700px) translateY(-200px) scale(3);
-}
 @media only screen and (min-width: 1400px) {
   .adoptar .adoptar-main .adoptar-seccion img {
     height: 180px;
@@ -703,16 +644,6 @@ footer .footer-iconos .derechos p {
   font-weight: bold;
 }
 
-.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
-}
-
 .colaborar .colaborar-main {
   padding-top: 40px;
 }
@@ -750,16 +681,6 @@ footer .footer-iconos .derechos p {
 }
 .colaborar .colaborar-main .colaborar-seccion iframe {
   margin-top: 20px;
-}
-
-.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
 }
 
 .reencuentros .reencuentros-main {
@@ -900,16 +821,6 @@ footer .footer-iconos .derechos p {
 }
 .reencuentros .reencuentros-main .reencuentros-seccion .nombres {
   font-weight: bold;
-}
-
-.adoptar .adoptar-main .adoptar-seccion .dogs1:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs2:hover img, .adoptar .adoptar-main .adoptar-seccion .dogs3:hover img {
-  transition: all 1s;
-  position: absolute;
-  border: black solid;
-  border-top-width: 10px;
-  border-left-width: 100px;
-  border-right-width: 100px;
-  border-bottom-width: 10px;
 }
 
 .contacto-main .mensaje {

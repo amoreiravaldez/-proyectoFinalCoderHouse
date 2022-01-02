@@ -190,46 +190,7 @@
             .ds1ad { grid-area: ds1ad; }
             .ds2ad { grid-area: ds2ad; }
             .ds3ad { grid-area: ds3ad; }
-            
-            .dogs1 {
-
-                &:hover {
-
-                    img {
-
-                        transform:translateX(700px) translateY(200px) scale(3);
-                        @extend %border-animacion;
-
-                    }
-                }
-            }
-
-            .dogs2 {
-
-                &:hover {
-
-                    img {
-
-                        transform:translateX(700px) scale(3);
-                        @extend %border-animacion;
-
-                    }
-                }
-            }
-
-            .dogs3 {
-
-                &:hover {
-
-                    img {
-
-                        transform:translateX(700px) translateY(-200px) scale(3);
-                        @extend %border-animacion;
-
-                    }
-                }
-            }
-            
+                        
             img {
 
                 @media only screen and (min-width: 1400px){
