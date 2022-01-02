@@ -637,24 +637,25 @@ footer .footer-iconos .derechos p {
   border-color: #1AEADD;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.9);
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 20px;
   width: 93vw;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
-.colaborar .colaborar-main .colaborar-seccion p {
+.colaborar .colaborar-main .colaborar-seccion div {
+  justify-self: center;
+  align-self: center;
+  min-width: 25%;
+  max-width: 25%;
+}
+.colaborar .colaborar-main .colaborar-seccion div p {
   margin-bottom: 15px;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   font-weight: bold;
 }
-.colaborar .colaborar-main .colaborar-seccion div {
-  justify-self: center;
-  align-self: center;
-}
-.colaborar .colaborar-main .colaborar-seccion img {
+.colaborar .colaborar-main .colaborar-seccion div img {
   height: 150px;
   display: block;
   margin-left: auto;
@@ -662,8 +663,8 @@ footer .footer-iconos .derechos p {
   width: 40%;
   margin-bottom: 40px;
 }
-.colaborar .colaborar-main .colaborar-seccion iframe {
-  margin-top: 20px;
+.colaborar .colaborar-main .colaborar-seccion div iframe {
+  margin: 20px auto;
 }
 
 .reencuentros .reencuentros-main {
