@@ -19,14 +19,15 @@
             display: flex;
             justify-content: space-evenly;
             flex-wrap: wrap;
+            margin-bottom: 20px;
 
             div {
 
                 justify-self: center;
                 align-self: center;
-                min-width: 25%;
                 max-width: 25%;
-                
+                min-width: 300px;
+
                 p {
 
                     margin-bottom: 15px;

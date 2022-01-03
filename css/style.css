@@ -9,6 +9,9 @@ body {
   background-image: url("../multimedia/images/background.jpg");
   background-repeat: repeat-y;
   background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -139,6 +142,7 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: auto;
 }
 @media only screen and (min-width: 1400px) {
   footer {
@@ -429,6 +433,7 @@ footer .footer-iconos .derechos p {
   background-color: rgba(255, 255, 255, 0.9);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 93vw;
 }
 @media only screen and (min-width: 1400px) {
@@ -436,7 +441,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 20% 15% 65%;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1ad lg1ad ds1ad" "img2ad lg2ad ds2ad" "img3ad lg3ad ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -447,7 +452,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1ad ds1ad" "img2ad ds2ad" "img3ad ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -458,7 +463,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1ad ds1ad" "img2ad ds2ad" "img3ad ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -470,7 +475,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -482,7 +487,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -494,7 +499,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1ad" "ds1ad" "img2ad" "ds2ad" "img3ad" "ds3ad";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -642,12 +647,13 @@ footer .footer-iconos .derechos p {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .colaborar .colaborar-main .colaborar-seccion div {
   justify-self: center;
   align-self: center;
-  min-width: 25%;
   max-width: 25%;
+  min-width: 300px;
 }
 .colaborar .colaborar-main .colaborar-seccion div p {
   margin-bottom: 15px;
@@ -679,6 +685,7 @@ footer .footer-iconos .derechos p {
   background-color: rgba(255, 255, 255, 0.9);
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 93vw;
 }
 @media only screen and (min-width: 1400px) {
@@ -686,7 +693,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 23% 77%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1re ds1re" "img2re ds2re" "img3re ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -697,7 +704,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1re ds1re" "img2re ds2re" "img3re ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -708,7 +715,7 @@ footer .footer-iconos .derechos p {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
     grid-template-areas: "img1re ds1re" "img2re ds2re" "img3re ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -720,7 +727,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1re" "ds1re" "img2re" "ds2re" "img3re" "ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -732,7 +739,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1re" "ds1re" "img2re" "ds2re" "img3re" "ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -744,7 +751,7 @@ footer .footer-iconos .derechos p {
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, auto);
     grid-template-areas: "img1re" "ds1re" "img2re" "ds2re" "img3re" "ds3re";
     grid-gap: 1rem;
     vertical-align: middle;
@@ -793,6 +800,9 @@ footer .footer-iconos .derechos p {
   font-weight: bold;
 }
 
+.contacto-main {
+  margin-bottom: 20px;
+}
 .contacto-main .mensaje {
   border-radius: 30px;
   border: 3px;

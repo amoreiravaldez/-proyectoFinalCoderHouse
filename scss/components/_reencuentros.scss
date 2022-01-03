@@ -16,13 +16,14 @@
             background-color:rgba(255, 255, 255, .9);
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 20px;
             width: 93vw;
 
             @media only screen and (min-width: 1400px){
                 display: grid;
                 grid-auto-rows: 1fr;
                 grid-template-columns: 23%  77%;
-                grid-template-rows: 1fr 1fr;
+                grid-template-rows: repeat(3,auto);
                 grid-template-areas: 
                 "img1re ds1re"
                 "img2re ds2re"
@@ -36,7 +37,7 @@
                 display: grid;
                 grid-auto-rows: 1fr;
                 grid-template-columns: 30%  70%;
-                grid-template-rows: 1fr 1fr;
+                grid-template-rows: repeat(3,auto);
                 grid-template-areas: 
                 "img1re ds1re"
                 "img2re ds2re"
@@ -49,7 +50,7 @@
                 display: grid;
                 grid-auto-rows: 1fr;
                 grid-template-columns: 30%  70%;
-                grid-template-rows: 1fr 1fr;
+                grid-template-rows: repeat(3,auto);
                 grid-template-areas: 
                 "img1re ds1re"
                 "img2re ds2re"
@@ -63,7 +64,7 @@
                 grid-auto-columns: 1fr; 
                 grid-auto-rows: 1fr;
                 grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: repeat(6,auto);
                 grid-template-areas: 
                 "img1re"
                 "ds1re"
@@ -80,7 +81,7 @@
                 grid-auto-columns: 1fr; 
                 grid-auto-rows: 1fr;
                 grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: repeat(6,auto);
                 grid-template-areas: 
                 "img1re"
                 "ds1re"
@@ -97,7 +98,7 @@
                 grid-auto-columns: 1fr; 
                 grid-auto-rows: 1fr;
                 grid-template-columns: 1fr;
-                grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: repeat(6,auto);
                 grid-template-areas: 
                 "img1re"
                 "ds1re"
@@ -106,7 +107,7 @@
                 "img3re"
                 "ds3re"; 
                 grid-gap: 1rem;
-                vertical-align: middle;                    
+                vertical-align: middle;                   
             }
 
             .img1re { grid-area: img1re; max-width: 400px; margin-left: auto; margin-right: auto;}

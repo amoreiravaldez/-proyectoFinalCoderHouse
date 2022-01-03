@@ -1,6 +1,6 @@
 @import 'base/variables';
 
-*{
+* {
     margin:0;
     padding:0;
 }
@@ -9,6 +9,10 @@ body {
     background-image: $backgroundImage; 
     background-repeat:repeat-y;
     background-size: cover;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @import 'base/header';
