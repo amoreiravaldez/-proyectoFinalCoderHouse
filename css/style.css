@@ -804,33 +804,6 @@ footer .footer-iconos .derechos p {
 .contacto-main {
   margin-bottom: 20px;
 }
-.contacto-main .mensaje {
-  border-radius: 30px;
-  border: 3px;
-  border-style: solid;
-  border-color: #1AEADD;
-  margin: 20px auto;
-  background-color: rgba(255, 255, 255, 0.7);
-  top: 10%;
-  left: 35%;
-  width: 30em;
-  height: 50%;
-}
-.contacto-main .mensaje .mensaje-p {
-  align-items: center;
-  font-size: 25px;
-  color: var(--navsFontColor);
-  font-family: "Titillium Web", sans-serif;
-  font-style: normal;
-  text-align: center;
-  margin-bottom: 0;
-}
-.contacto-main .contactos-carousel {
-  width: 640px;
-  height: 360px;
-  position: relative;
-  margin: 30px auto;
-}
 .contacto-main .contacto-main-form {
   width: 100%;
   display: flex;
@@ -838,6 +811,7 @@ footer .footer-iconos .derechos p {
   flex-wrap: wrap;
 }
 .contacto-main .contacto-main-form div {
+  margin: 40px auto 0px auto;
   border-radius: 30px;
   border: 3px;
   border-style: solid;
@@ -856,28 +830,23 @@ footer .footer-iconos .derechos p {
   text-align: center;
   margin-bottom: 30px;
 }
-.contacto-main .contacto-main-form div form span {
-  font-family: "Titillium Web", sans-serif;
-  margin-right: 20px;
-}
 .contacto-main .contacto-main-form div form input {
   font-family: "Titillium Web", sans-serif;
-  margin-right: 20px;
-  width: 350px;
+  margin: auto auto 20px auto;
+  width: 100%;
+}
+.contacto-main .contacto-main-form div form select {
+  font-family: "Titillium Web", sans-serif;
+  margin: auto auto 20px auto;
+  width: 100%;
 }
 .contacto-main .contacto-main-form div form textarea {
-  margin-top: 20px;
-  padding: 10px;
+  margin: auto auto 20px auto;
+  padding: 5px 10px;
   height: 200px;
-  width: 400px;
+  width: 100%;
   font-family: "Titillium Web", sans-serif;
   resize: none;
-}
-.contacto-main .contacto-main-form div p {
-  margin-top: 30px;
-  color: black;
-  font-family: "Titillium Web", sans-serif;
-  font-size: 25px;
 }
 .contacto-main .contacto-main-form button {
   width: 100%;

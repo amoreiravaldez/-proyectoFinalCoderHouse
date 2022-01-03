@@ -65,56 +65,43 @@
     </header>
 
     <main class="contacto-main">
-
-        <div class="mensaje">
-            <p class="mensaje-p">Algunos de nuestros rescatados!</p>
-        </div>
-
-        <section class="contactos-carousel">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../multimedia/images/carousel/carousel1.jpg" class="d-block w-100" alt="Imágen relacionada con reencuentros de animales y personas.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../multimedia/images/carousel/carousel2.jpg" class="d-block w-100" alt="Imágen relacionada con reencuentros de animales y personas.">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../multimedia/images/carousel/carousel3.jpg" class="d-block w-100" alt="Imágen relacionada con reencuentros de animales y personas.">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section>
         
         <section class="contacto-main-form">
+
             <div>
                 
                 <!-- Título relacionado  -->
-                <h2>Ante cualquier duda que tengas comunicate con nosotros!</h2>
+                <h2>Sentite libre de comunicarte con nosotros por cualquier duda que tengas!</h2>
                 
-                <form action="mailto:amoreiravaldez@gmail.com"
-                    method="POST"
-                    enctype="multipart/form-data"
-                    name="EmailForm">
-                    
-                    <span>Nombre:</span>
+                <form id="contacto" action="mailto:amoreiravaldez@gmail.com" method="GET">
+                    <fieldset>
+                      <input placeholder="Nombre y Apellido" type="nombre" tabindex="1" required autofocus >
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Dirección de Mail" type="email" name="BCC" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                      <input placeholder="Teléfono de Contacto" type="telefono" tabindex="3">
+                    </fieldset>
+                    <fieldset>
+                        <select>
+                            <optgroup label="Motivo de Consulta" name="subject">
+                              <option value="adopcion">Adopciones</option>
+                              <option value="transitos">Transitos</option>
+                              <option value="donaciones">Donaciones</option>}
+                              <option value="colaboraciones">Ayuda General</option>
+                              <option value="perdidos">Animales Perdidos/Encontrados</option>
+                            </optgroup>
+                          </select>
+                    </fieldset>
+                    <fieldset>
+                      <textarea placeholder="Escribinos tu mensaje aquí..." tabindex="5" name="body" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" value="send" data-submit="...Sending">Enviar!</button>
+                    </fieldset>
+                  </form>
 
-                    <input type=”text” size=”19″ name=”ContactName”>
-
-                    <span>Mensaje:</span>
-             
-                    <textarea name=”ContactCommentt” rows=”6″ cols=”20″></textarea>
-                    
-                    <button type="submit" value="Submit">Consultanos!</button>
-                </form>
             </div>
 
         </section>
