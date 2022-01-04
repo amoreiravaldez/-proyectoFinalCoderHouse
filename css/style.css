@@ -860,6 +860,26 @@ footer .footer-iconos .derechos p {
   font-family: "Titillium Web", sans-serif;
   resize: none;
 }
+.contacto-main .contacto-main-form .quienes-somos {
+  border: none;
+  margin: 40px auto 0px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 10%;
+  left: 35%;
+  width: 40em;
+  font-family: "Titillium Web", sans-serif;
+  font-style: normal;
+}
+.contacto-main .contacto-main-form .quienes-somos p {
+  margin-bottom: 30px;
+}
+.contacto-main .contacto-main-form .quienes-somos .mision, .contacto-main .contacto-main-form .quienes-somos .objetivos {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  font-style: normal;
+}
 .contacto-main .contacto-main-form button {
   width: 100%;
   background-color: #1AEADD;
