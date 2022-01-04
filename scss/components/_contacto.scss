@@ -37,14 +37,14 @@
             form {
 
                 input {
-
+                    padding-left: 10px;
                     font-family: 'Titillium Web', sans-serif;
                     margin: auto auto 20px auto;
                     width: 100%;
                 }
 
                 select {
-
+                    padding-left: 10px;
                     font-family: 'Titillium Web', sans-serif;
                     margin: auto auto 20px auto;
                     width: 100%;
@@ -78,7 +78,6 @@
             cursor: pointer;
 
             &:hover {
-
                 background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
                 background-size: 400% 400%;
                 animation: Gradient 2s ease infinite;

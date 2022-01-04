@@ -831,11 +831,13 @@ footer .footer-iconos .derechos p {
   margin-bottom: 30px;
 }
 .contacto-main .contacto-main-form div form input {
+  padding-left: 10px;
   font-family: "Titillium Web", sans-serif;
   margin: auto auto 20px auto;
   width: 100%;
 }
 .contacto-main .contacto-main-form div form select {
+  padding-left: 10px;
   font-family: "Titillium Web", sans-serif;
   margin: auto auto 20px auto;
   width: 100%;
