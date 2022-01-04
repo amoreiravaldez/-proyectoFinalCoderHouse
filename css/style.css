@@ -374,19 +374,19 @@ footer .footer-iconos .derechos p {
   font-family: "Dancing Script", cursive;
   font-style: italic;
 }
-.index section div p {
+.index section div h2 {
   margin-top: 30px;
   color: black;
   font-family: "Titillium Web", sans-serif;
   font-size: 25px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .index section div p {
+  .index section div h2 {
     display: none;
   }
 }
 @media only screen and (max-width: 575px) {
-  .index section div p {
+  .index section div h2 {
     display: none;
   }
 }
@@ -681,6 +681,7 @@ footer .footer-iconos .derechos p {
 }
 .colaborar .colaborar-main .colaborar-seccion div iframe {
   margin: 20px auto;
+  max-width: 100%;
 }
 
 .reencuentros .reencuentros-main {
@@ -831,7 +832,7 @@ footer .footer-iconos .derechos p {
   left: 35%;
   width: 30em;
 }
-.contacto-main .contacto-main-form div h2 {
+.contacto-main .contacto-main-form div h1 {
   font-size: 30px;
   color: var(--navsFontColor);
   font-family: "Titillium Web", sans-serif;
