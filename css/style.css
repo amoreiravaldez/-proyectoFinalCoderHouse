@@ -830,8 +830,6 @@ footer .footer-icons .rights p {
   border-color: #1AEADD;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.7);
-  top: 10%;
-  left: 35%;
   width: 40em;
 }
 .contact-main .contact-main-form div h1 {
@@ -867,8 +865,6 @@ footer .footer-icons .rights p {
   margin: 40px auto 0px auto;
   padding: 30px;
   background-color: rgba(255, 255, 255, 0.7);
-  top: 10%;
-  left: 35%;
   width: 40em;
   font-family: "Titillium Web", sans-serif;
   font-style: normal;
@@ -901,6 +897,116 @@ footer .footer-icons .rights p {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
   background-size: 400% 400%;
   animation: Gradient 2s ease infinite;
+}
+
+.error-404 section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  margin: auto;
+}
+.error-404 section div {
+  width: 60%;
+  border: none;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  font-family: "Titillium Web", sans-serif;
+  padding: 5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media only screen and (min-width: 1400px) {
+  .error-404 section div {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .error-404 section div {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-404 section div {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-404 section div {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .error-404 section div {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .error-404 section div {
+    width: 90%;
+  }
+}
+.error-404 section div h1 {
+  font-size: 30px;
+  margin: 10px auto;
+  font-weight: bold;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-404 section div h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-404 section div h1 {
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .error-404 section div h1 {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .error-404 section div h1 {
+    font-size: 17px;
+  }
+}
+.error-404 section div p {
+  font-size: 18px;
+  margin: 10px auto;
+  text-align: center;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .error-404 section div p {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .error-404 section div p {
+    font-size: 17px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .error-404 section div p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .error-404 section div p {
+    font-size: 14px;
+  }
+}
+.error-404 section div a {
+  display: flex;
+  justify-content: center;
+}
+.error-404 section div a img {
+  min-width: 200px;
+  max-width: 60%;
+  margin: 20px auto;
 }
 
 /*# sourceMappingURL=style.css.map */

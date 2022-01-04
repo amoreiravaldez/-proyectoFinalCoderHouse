@@ -1,0 +1,115 @@
+@import 'variables';
+
+
+.error-404 {
+    
+    section {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75vh;
+        margin: auto;
+
+        div {
+
+
+            width: 60%;
+            border: none;
+            margin: auto;
+            background-color:rgba(255, 255, 255, .7);
+            border-radius: 20px;
+            font-family: 'Titillium Web', sans-serif;
+            padding: 5px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+
+            @media only screen and (min-width: 1400px){
+                width: 60%;
+            }
+            
+            @media only screen and (min-width: 1200px) and (max-width: 1399px){
+                width: 80%;
+            }
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199px){
+                width: 80%;
+            }
+            
+            @media only screen and (min-width: 768px) and (max-width: 991px){
+                width: 80%;
+            }
+            
+            @media only screen and (min-width: 576px) and (max-width: 767px){
+                width: 90%;
+            }
+            
+            @media only screen and (max-width: 575px){
+                width: 90%;
+            }
+            
+            
+            h1 {
+                
+                font-size: 30px;
+                margin: 10px auto;
+                font-weight: bold;
+                text-align: center;
+                
+                @media only screen and (min-width: 992px) and (max-width: 1199px){
+                    font-size: 25px;
+                }
+                
+                @media only screen and (min-width: 768px) and (max-width: 991px){
+                    font-size: 25px;
+                }
+
+                @media only screen and (min-width: 576px) and (max-width: 767px){
+                    font-size: 22px;
+                }
+                
+                @media only screen and (max-width: 575px){
+                    font-size: 17px;
+                }
+                
+            }
+
+            p {
+                
+                font-size: 18px;
+                margin: 10px auto;
+                text-align: center;
+                
+                @media only screen and (min-width: 992px) and (max-width: 1199px){
+                    font-size: 17px;
+                }
+                
+                @media only screen and (min-width: 768px) and (max-width: 991px){
+                    font-size: 17px;
+                }
+
+                @media only screen and (min-width: 576px) and (max-width: 767px){
+                    font-size: 16px;
+                }
+                
+                @media only screen and (max-width: 575px){
+                    font-size: 14px;
+                }
+            }
+            
+            a {
+                
+                display: flex;
+                justify-content:center;
+
+                img {
+                    min-width: 200px;
+                    max-width: 60%;
+                    margin: 20px auto;
+                }
+            }
+        }
+    }
+
+}
