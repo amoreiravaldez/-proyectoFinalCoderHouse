@@ -15,11 +15,26 @@ body {
     flex-direction: column;
 }
 
+// Header
 @import 'base/header';
+
+// Footer
 @import 'base/footer';
+
+// Index
 @import 'components/index';
+
+// Adoptar
 @import 'components/adoptar';
+
+// Colaborar
 @import 'components/colaborar';
+
+// Reencuentros
 @import 'components/reencuentros';
+
+// Contacto 
 @import 'components/contacto';
+
+// Error 404
 @import 'base/404';
