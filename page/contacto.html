@@ -58,18 +58,24 @@
 
 <body>
 
-    <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
+    <!-- Header - It will contain a nav with five sections and the logo of the org. -->
+
     <header>
-        <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo">
+
+        <!-- Logo - This div contains the logo image. -->
+
+        <div>
             <a href="#">
-                <img class="header-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
-        <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
+        <!-- Nav - It contains six sections (index, adoptar, colaborar, reencuentros, contacto and a hidden section that will be displayed when the viewport is small) and a dropdown menu inside the section called 'Colaborar'. -->
+
         <nav>
             <ul>
+                <!-- Menu - Hidden section that will be displayed when viewport is small, shows all other five sections. -->
+
                 <li id="menu-nav-small">
                     <a href="#">Menú!</a>
                     <ul>
@@ -80,6 +86,9 @@
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </li>
+
+                <!-- Current sections nav for desktop viewports -->
+                
                 <li class="menu-nav-big"><a href="../index.html">Inicio</a></li>
                 <li class="menu-nav-big"><a href="adoptar.html">Adoptá!</a></li>
                 <li class="menu-nav-big">
@@ -96,19 +105,19 @@
         </nav>
     </header>
 
-    <main class="contacto-main">
+    <main class="contact-main">
         
-        <section class="contacto-main-form">
+        <section class="contact-main-form">
         
-            <div class="quienes-somos">
-                <p class="mision">Misión</p>
+            <div class="who-are-we">
+                <p class="mission">Misión</p>
                 <p>
                     HogAR es una organización sin fines de lucro cuyo objetivo principal es colaborar y brindar herramientas a las asociaciones dedicadas al rescate de animales para sobrellevar las situaciones de abandono, crueldad e indiferencia que viven millones de animales en nuestro país.
                 </p>
                 <p>
                     Propiciamos una actitud de respeto hacia todas las especies, entendiendo que no son “cosas” para ser utilizadas por el ser humano. Rechazamos todo tipo de explotación animal, incluyendo su uso como vestimenta, comida, entretenimiento y experimentación.
                 </p>
-                <p class="objetivos">Nuestros objetivos</p>
+                <p class="objectives">Nuestros objetivos</p>
                 <ul>
                     <li>Luchar contra el abandono, el maltrato y el sufrimiento animal.</li>
                     <li>Educar sobre el respeto por la vida de los animales a través de charlas y talleres educativos en lugares públicos y privados.</li>
@@ -123,7 +132,7 @@
                 <!-- Título relacionado  -->
                 <h1>Sentite libre de comunicarte con nosotros por cualquier duda que tengas!</h1>
         
-                <form id="contacto" action="mailto:amoreiravaldez@gmail.com" method="GET">
+                <form id="contact" action="mailto:amoreiravaldez@gmail.com" method="GET">
                     <fieldset>
                       <input placeholder="Nombre y Apellido" type="nombre" required autofocus >
                     </fieldset>
@@ -136,11 +145,11 @@
                     <fieldset>
                         <select>
                             <optgroup label="Motivo de Consulta" name="subject">
-                              <option value="adopcion">Adopciones</option>
-                              <option value="transitos">Transitos</option>
-                              <option value="donaciones">Donaciones</option>}
-                              <option value="colaboraciones">Ayuda General</option>
-                              <option value="perdidos">Animales Perdidos/Encontrados</option>
+                              <option value="adoption">Adopciones</option>
+                              <option value="transfers">Transitos</option>
+                              <option value="donations">Donaciones</option>}
+                              <option value="colaborations">Ayuda General</option>
+                              <option value="lost">Animales Perdidos/Encontrados</option>
                             </optgroup>
                           </select>
                     </fieldset>
@@ -159,19 +168,22 @@
 
     <footer>
         
-        <!-- Sección para el logo -->
+         <!-- Section - Contains the logo. -->
+
         <section class="footer-logo-section">
             <div>
                 <a href="#">
-                    <img class="footer-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                    <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
                 </a>
             </div>   
         </section>
 
-        <!-- Sección para el contenido del footer -->
-        <section class="footer-contenido">
+         <!-- Section - Contains the main links for user navigation. -->
 
-            <!-- Primer columna sirve para navegar dentro de la plataforma -->
+        <section class="footer-content">
+
+            <!-- Div - Platform links -->
+
             <div>
                 <h3 class="h3-section">Plataforma</h3>
                 <ul class="custom-ul">
@@ -194,7 +206,7 @@
             </div>
 
 
-        <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
+        <!-- Div - Institutional Links -->
             <div>
                 <h3 class="h3-section">Institucional</h3>
                 <ul class="custom-ul">
@@ -204,7 +216,8 @@
                 </ul>
             </div>
 
-        <!-- La tercer columna va a mostrar links relacionados a contactos externos -->
+        <!-- Div - Useful links -->
+
             <div>
                 <h3 class="h3-section">Enlaces útiles</h3>
                 <ul class="custom-ul">
@@ -219,19 +232,23 @@
 
         </section>
 
-        <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
-        <section class="footer-iconos">
-            <!-- Logo de Instagram -->
-            <div class="iconos-redes"> 
+        <!-- Section - Social Networks -->
 
-                <!-- Logo de Instagram -->
+        <section class="footer-icons">
+
+            <!-- Div - Icons for different social networks -->
+
+            <div class="networks-icons"> 
+
+                <!-- Div - Instagram Logo -->
+
                 <div>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"> 
                         <img src="../multimedia/images/instagram.png" alt="Logo de Instagram">
                     </a>
                 </div>   
     
-                <!-- Logo de Twitter -->
+                <!-- Div - Twitter Logo -->
     
                 <div>
                     <a href="https://www.twitter.com/" target="_blank" rel="noopener">
@@ -239,23 +256,19 @@
                     </a>
                 </div>    
                 
-                <!-- Logo de Facebook -->
+                <!-- Div - Facebook Logo -->
     
                 <div>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                         <img src="../multimedia/images/facebook.png" alt="Logo de Facebook">
                     </a>
                 </div>   
-
             </div>
 
-            <div class="derechos">
+            <div class="rights">
                 <p>Todos los derechos reservados - Argentina</p>
             </div>
-            
-            
         </section>
-
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

@@ -57,18 +57,24 @@
 </head>
 <body>
 
-    <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
+    <!-- Header - It will contain a nav with five sections and the logo of the org. -->
+
     <header>
-        <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo">
+
+        <!-- Logo - This div contains the logo image. -->
+
+        <div>
             <a href="#">
-                <img class="header-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
-        <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
+        <!-- Nav - It contains six sections (index, adoptar, colaborar, reencuentros, contacto and a hidden section that will be displayed when the viewport is small) and a dropdown menu inside the section called 'Colaborar'. -->
+
         <nav>
             <ul>
+                <!-- Menu - Hidden section that will be displayed when viewport is small, shows all other five sections. -->
+
                 <li id="menu-nav-small">
                     <a href="#">Menú!</a>
                     <ul>
@@ -79,6 +85,9 @@
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </li>
+
+                <!-- Current sections nav for desktop viewports -->
+                
                 <li class="menu-nav-big"><a href="../index.html">Inicio</a></li>
                 <li class="menu-nav-big"><a href="adoptar.html">Adoptá!</a></li>
                 <li class="menu-nav-big">
@@ -95,28 +104,28 @@
         </nav>
     </header>
 
-    <main class="reencuentros">
-        <section class="reencuentros-main">
-            <div class="reencuentros-seccion">
+    <main class="reunions">
+        <section class="reunions-main">
+            <div class="reunions-section">
                 <div class="dogs1 img1re">
                     <img src="../multimedia/images/reencuentros/dog1.jpg" alt="Perro encontrado">
                 </div>
                 <div class="ds1re">
-                    <p class="nombres">Encontrados en Ramos Mejía - Diciembre 2021</p>
+                    <p class="names">Encontrados en Ramos Mejía - Diciembre 2021</p>
                     <p>Perro sin castrar encontrado el 25 de Diciembre del 2021 a horas de la madrugada en las calles Gral. Alvarado y Tacuarí, Ramos Mejía. En caso de conocer a su familia les pedimos por favor que se comuniquen con nosotros a través de nuestro formulario de contacto. </p>
                 </div>
                 <div class="dogs2 img2re">
                     <img src="../multimedia/images/reencuentros/dog2.jpg" alt="Perro encontrado">
                 </div>
                 <div class="ds2re">
-                    <p class="nombres">Encontrado en Morón - Noviembre 2021</p>
+                    <p class="names">Encontrado en Morón - Noviembre 2021</p>
                     <p>Galgo hembra encontrada el 22 de Noviembre del 2021. Fue retenida luego de ser perseguida durante un tiempo porque se encontraba asustada. Parece estar perdida hace unos días por el estado en el que se encuentra. Tenía una chapita con el nombre de 'Akira' pero sin un número de contacto. En caso de conocer a su familia les pedimos por favor que se comuniquen con nosotros a través de nuestro formulario de contacto.</p>
                 </div>
                 <div class="dogs3 img3re">
                     <img src="../multimedia/images/reencuentros/dog3.jpg" alt="Perro perdido">
                 </div>
                 <div class="ds3re">
-                    <p class="nombres">Perdido en Lanús - Octubre 2021</p>
+                    <p class="names">Perdido en Lanús - Octubre 2021</p>
                     <p>Busco a Gina, labradora color beige, es adulta y se perdió durante un paseo en las calles Madariaga y Eva Perón (Caaguazú). En caso de que la hayan visto o si alguna persona la tiene en su casa le pedimos por favor que se comunique a través del formulario de contacto o llamando directamente al teléfono en la sección de contacto.</p>
                 </div>
             </div>
@@ -126,19 +135,22 @@
     
     <footer>
         
-        <!-- Sección para el logo -->
+         <!-- Section - Contains the logo. -->
+
         <section class="footer-logo-section">
             <div>
                 <a href="#">
-                    <img class="footer-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                    <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
                 </a>
             </div>   
         </section>
 
-        <!-- Sección para el contenido del footer -->
-        <section class="footer-contenido">
+         <!-- Section - Contains the main links for user navigation. -->
 
-            <!-- Primer columna sirve para navegar dentro de la plataforma -->
+        <section class="footer-content">
+
+            <!-- Div - Platform links -->
+
             <div>
                 <h3 class="h3-section">Plataforma</h3>
                 <ul class="custom-ul">
@@ -161,7 +173,7 @@
             </div>
 
 
-        <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
+        <!-- Div - Institutional Links -->
             <div>
                 <h3 class="h3-section">Institucional</h3>
                 <ul class="custom-ul">
@@ -171,7 +183,8 @@
                 </ul>
             </div>
 
-        <!-- La tercer columna va a mostrar links relacionados a contactos externos -->
+        <!-- Div - Useful links -->
+
             <div>
                 <h3 class="h3-section">Enlaces útiles</h3>
                 <ul class="custom-ul">
@@ -186,19 +199,23 @@
 
         </section>
 
-        <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
-        <section class="footer-iconos">
-            <!-- Logo de Instagram -->
-            <div class="iconos-redes"> 
+        <!-- Section - Social Networks -->
 
-                <!-- Logo de Instagram -->
+        <section class="footer-icons">
+
+            <!-- Div - Icons for different social networks -->
+
+            <div class="networks-icons"> 
+
+                <!-- Div - Instagram Logo -->
+
                 <div>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener"> 
                         <img src="../multimedia/images/instagram.png" alt="Logo de Instagram">
                     </a>
                 </div>   
     
-                <!-- Logo de Twitter -->
+                <!-- Div - Twitter Logo -->
     
                 <div>
                     <a href="https://www.twitter.com/" target="_blank" rel="noopener">
@@ -206,23 +223,19 @@
                     </a>
                 </div>    
                 
-                <!-- Logo de Facebook -->
+                <!-- Div - Facebook Logo -->
     
                 <div>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                         <img src="../multimedia/images/facebook.png" alt="Logo de Facebook">
                     </a>
                 </div>   
-
             </div>
 
-            <div class="derechos">
+            <div class="rights">
                 <p>Todos los derechos reservados - Argentina</p>
             </div>
-            
-            
         </section>
-
     </footer>
 
     <!-- Bootstrap JS -->

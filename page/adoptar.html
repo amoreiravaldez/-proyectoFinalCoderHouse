@@ -57,18 +57,24 @@
 </head>
 <body>
 
-    <!-- Header, tiene que contener un nav para los botones del mismo y cada uno de los botones debe ser parte de una lista desordenada. -->
+    <!-- Header - It will contain a nav with five sections and the logo of the org. -->
+
     <header>
-        <!-- Incluyo una etiqueta de imagen para el logo de la página. -->
-        <div class="div-logo">
+
+        <!-- Logo - This div contains the logo image. -->
+
+        <div>
             <a href="#">
-                <img class="header-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
             </a>
         </div>   
 
-        <!-- El nav me va a permitir transitar los diferentes elementos del menú. -->
+        <!-- Nav - It contains six sections (index, adoptar, colaborar, reencuentros, contacto and a hidden section that will be displayed when the viewport is small) and a dropdown menu inside the section called 'Colaborar'. -->
+
         <nav>
             <ul>
+                <!-- Menu - Hidden section that will be displayed when viewport is small, shows all other five sections. -->
+
                 <li id="menu-nav-small">
                     <a href="#">Menú!</a>
                     <ul>
@@ -79,6 +85,9 @@
                         <li><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </li>
+
+                <!-- Current sections nav for desktop viewports -->
+
                 <li class="menu-nav-big"><a href="../index.html">Inicio</a></li>
                 <li class="menu-nav-big"><a href="adoptar.html">Adoptá!</a></li>
                 <li class="menu-nav-big">
@@ -95,9 +104,9 @@
         </nav>
     </header>
 
-    <main class="adoptar">
-        <section class="adoptar-main">
-            <div class="adoptar-seccion">
+    <main class="adoption">
+        <section class="adoption-main">
+            <div class="adoption-section">
                 <div class="dogs1 img1ad">
                     <img src="../multimedia/images/adoptar/dog1.jpg" alt="Perro en adopción">
                 </div>
@@ -105,7 +114,7 @@
                     <a href="https://www.instagram.com/proyecto4patas/" target="_blank"><img src="../multimedia/images/adoptar/proyecto4patas.png" alt="Proyecto 4 Patas - Asociación"></a>
                 </div>
                 <div class="ds1ad">
-                    <p class="nombres">Nombre: Fausto</p>
+                    <p class="names">Nombre: Fausto</p>
                     <p>Fausto es un perro adulto, tiene alrededor de 9 años, y su tamaño es mediano/chico, pudiendose adaptar perfectamente a las medidas de un departamento. Los perros adultos y negros siempre son los más ignorados a la hora de adoptar, pero ojalá que cuando veas estas fotos te animes a darle una oportunidad!</p>
                     <p>Si te interesa saber más sobre él no dudes en pedirnos más información de forma privada a través de nuestra sección de contacto, incluso podemos coordinar una visita para que lo conozcas!</p>
                     <p>Asociación Responsable: Proyecto 4 Patas</p>
@@ -117,7 +126,7 @@
                     <a href="https://www.instagram.com/amigoacasa/" target="_blank"><img src="../multimedia/images/adoptar/amigoacasa.png" alt="Proyecto 4 Patas - Asociación"></a>
                 </div>
                 <div class="ds2ad">
-                    <p class="nombres">Nombre: Ryu</p>
+                    <p class="names">Nombre: Ryu</p>
                     <p>Ryu llegó a nosotros tras haber sido rescatada por una familia en Lanús, donde fue encontrada con una herida abierta y completamente a su suerte. El camino hacia la recuperación fue difícil pero ahora que se encuentra completamente curada está lista para formar parte de una nueva familia!</p>
                     <p>Te pedimos por favor que en caso de estar interesado en conocerla, realices la solicitud mediante nuestro formulario de contacto.</p>
                     <p>Asociación Responsable: Amigo a Casa</p>
@@ -129,7 +138,7 @@
                     <a href="https://www.instagram.com/proyecto4patas/" target="_blank"><img src="../multimedia/images/adoptar/proyecto4patas.png" alt="Proyecto 4 Patas - Asociación"></a>
                 </div>
                 <div class="ds3ad">
-                    <p class="nombres">Nombre: Toto</p>
+                    <p class="names">Nombre: Toto</p>
                     <p>Como todavía nadie se enamoró de él? Totó llegó a nosotros siendo un cachorro y creció a pasos agigantados pese a ser todavía chiquito en cuanto a su tamaño. Hoy ya se encuentra listo para encontrar su familia definitiva y después de tanto dolor se merece más que nadie una oportunidad.</p>
                     <p>Todos sus hermanos fueron adoptados y hace meses se encuentra solito esperando esa familia que todavía no llega!. Si te interesa sumarlo a tu familia, no dudes en solicitar el cuestionario de adopción por mensaje privado.</p>
                     <p>Asociación Responsable: Proyecto 4 Patas</p>
@@ -140,19 +149,22 @@
 
     <footer>
         
-        <!-- Sección para el logo -->
+         <!-- Section - Contains the logo. -->
+
         <section class="footer-logo-section">
             <div>
                 <a href="#">
-                    <img class="footer-logo" src="../multimedia/images/logo.png" alt="Logo de la página web.">
+                    <img src="../multimedia/images/logo.png" alt="Logo de la página web.">
                 </a>
             </div>   
         </section>
 
-        <!-- Sección para el contenido del footer -->
-        <section class="footer-contenido">
+         <!-- Section - Contains the main links for user navigation. -->
 
-            <!-- Primer columna sirve para navegar dentro de la plataforma -->
+        <section class="footer-content">
+
+            <!-- Div - Platform links -->
+
             <div>
                 <h3 class="h3-section">Plataforma</h3>
                 <ul class="custom-ul">
@@ -175,7 +187,7 @@
             </div>
 
 
-        <!-- La segunda columna va a mostrar los links relacionados con la página desde un punto de vista institucional y quienes colaboran con ella. -->
+        <!-- Div - Institutional Links -->
             <div>
                 <h3 class="h3-section">Institucional</h3>
                 <ul class="custom-ul">
@@ -185,7 +197,8 @@
                 </ul>
             </div>
 
-        <!-- La tercer columna va a mostrar links relacionados a contactos externos -->
+        <!-- Div - Useful links -->
+
             <div>
                 <h3 class="h3-section">Enlaces útiles</h3>
                 <ul class="custom-ul">
@@ -200,19 +213,23 @@
 
         </section>
 
-        <!-- La última columna va a incluir los logos de nuestras redes sociales y una referencia a la locación geográfica relacionada con la página -->
-        <section class="footer-iconos">
-            <!-- Logo de Instagram -->
-            <div class="iconos-redes"> 
+        <!-- Section - Social Networks -->
 
-                <!-- Logo de Instagram -->
+        <section class="footer-icons">
+
+            <!-- Div - Icons for different social networks -->
+
+            <div class="networks-icons"> 
+
+                <!-- Div - Instagram Logo -->
+
                 <div>
                     <a href="https://www.instagram.com/" target="_blank" rel="noopener"> 
                         <img src="../multimedia/images/instagram.png" alt="Logo de Instagram">
                     </a>
                 </div>   
     
-                <!-- Logo de Twitter -->
+                <!-- Div - Twitter Logo -->
     
                 <div>
                     <a href="https://www.twitter.com/" target="_blank" rel="noopener">
@@ -220,27 +237,22 @@
                     </a>
                 </div>    
                 
-                <!-- Logo de Facebook -->
+                <!-- Div - Facebook Logo -->
     
                 <div>
                     <a href="https://www.facebook.com/" target="_blank" rel="noopener">
                         <img src="../multimedia/images/facebook.png" alt="Logo de Facebook">
                     </a>
                 </div>   
-
             </div>
 
-            <div class="derechos">
+            <div class="rights">
                 <p>Todos los derechos reservados - Argentina</p>
             </div>
-            
-            
         </section>
-
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
-
 </body>
 </html>

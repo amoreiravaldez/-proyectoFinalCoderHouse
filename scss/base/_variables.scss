@@ -3,7 +3,7 @@
 
 $backgroundImage: url("../multimedia/images/background.jpg");
 
-// Inclusión de Mixin
+// Mixin Inclusion
 
 @mixin frame-imagenes {
     border-top-width: 10px;
@@ -12,14 +12,14 @@ $backgroundImage: url("../multimedia/images/background.jpg");
     border-bottom-width: 10px;
 }
 
-// Inclusión de Mapas
+// Maps Inclusion
 
 $colores-diseno: (
     navsBackgroundColor: white,
     navsFontColor: black
 );
 
-// Extends
+// Extend Inclusion
 
 %border-animacion {
     transition: all 1s; 

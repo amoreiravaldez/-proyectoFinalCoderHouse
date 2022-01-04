@@ -211,103 +211,103 @@ footer .footer-logo-section div a img {
     display: none;
   }
 }
-footer .footer-contenido {
+footer .footer-content {
   display: flex;
 }
-footer .footer-contenido div {
+footer .footer-content div {
   padding: 0 10px 0 10px;
 }
-footer .footer-contenido div .h3-section {
+footer .footer-content div .h3-section {
   display: block;
   font-size: 1.17em;
   font-weight: bold;
   margin-bottom: 0;
   padding-left: 0;
 }
-footer .footer-contenido div .custom-ul {
+footer .footer-content div .custom-ul {
   padding-left: 0;
   list-style-type: none;
 }
-footer .footer-contenido div .custom-ul li a {
+footer .footer-content div .custom-ul li a {
   color: inherit;
   text-decoration: none;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  footer .footer-contenido {
+  footer .footer-content {
     width: 100%;
     justify-content: space-around;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  footer .footer-contenido {
+  footer .footer-content {
     width: 100%;
     justify-content: space-around;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  footer .footer-contenido {
+  footer .footer-content {
     width: 100%;
     justify-content: space-around;
   }
 }
-footer .footer-iconos {
+footer .footer-icons {
   display: flex;
   flex-direction: column;
 }
-footer .footer-iconos .iconos-redes {
+footer .footer-icons .networks-icons {
   display: flex;
 }
-footer .footer-iconos .iconos-redes img {
+footer .footer-icons .networks-icons img {
   height: 100%;
   width: 100%;
 }
-footer .footer-iconos .iconos-redes div {
+footer .footer-icons .networks-icons div {
   height: 50px;
   width: 50px;
   display: flex;
   margin: 0 30px;
 }
-footer .footer-iconos .iconos-redes div:hover {
+footer .footer-icons .networks-icons div:hover {
   animation: temblar 150ms 2 linear;
 }
-footer .footer-iconos .derechos {
+footer .footer-icons .rights {
   margin-top: auto;
 }
-footer .footer-iconos .derechos p {
+footer .footer-icons .rights p {
   padding: 0 30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  footer .footer-iconos .derechos {
+  footer .footer-icons .rights {
     margin-top: 10px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  footer .footer-iconos .derechos {
+  footer .footer-icons .rights {
     margin-top: 10px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  footer .footer-iconos .derechos {
+  footer .footer-icons .rights {
     margin-top: 10px;
   }
 }
 @media only screen and (max-width: 575px) {
-  footer .footer-iconos .derechos {
+  footer .footer-icons .rights {
     margin-top: 10px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  footer .footer-iconos {
+  footer .footer-icons {
     align-items: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  footer .footer-iconos {
+  footer .footer-icons {
     align-items: center;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  footer .footer-iconos {
+  footer .footer-icons {
     align-items: center;
   }
 }
@@ -424,10 +424,10 @@ footer .footer-iconos .derechos p {
     background-position: 0% 50%;
   }
 }
-.adoptar .adoptar-main {
+.adoption .adoption-main {
   padding-top: 40px;
 }
-.adoptar .adoptar-main .adoptar-seccion {
+.adoption .adoption-main .adoption-section {
   border-radius: 30px;
   border: 2px;
   border-style: solid;
@@ -440,7 +440,7 @@ footer .footer-iconos .derechos p {
   width: 93vw;
 }
 @media only screen and (min-width: 1400px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 20% 15% 65%;
@@ -451,7 +451,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
@@ -462,7 +462,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
@@ -473,7 +473,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -485,7 +485,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -497,7 +497,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (max-width: 575px) {
-  .adoptar .adoptar-main .adoptar-seccion {
+  .adoption .adoption-main .adoption-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -508,137 +508,137 @@ footer .footer-iconos .derechos p {
     vertical-align: middle;
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .img1ad {
+.adoption .adoption-main .adoption-section .img1ad {
   grid-area: img1ad;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.adoptar .adoptar-main .adoptar-seccion .img2ad {
+.adoption .adoption-main .adoption-section .img2ad {
   grid-area: img2ad;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.adoptar .adoptar-main .adoptar-seccion .img3ad {
+.adoption .adoption-main .adoption-section .img3ad {
   grid-area: img3ad;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.adoptar .adoptar-main .adoptar-seccion .lg1ad {
+.adoption .adoption-main .adoption-section .lg1ad {
   grid-area: lg1ad;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  .adoption .adoption-main .adoption-section .lg1ad {
     display: none;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  .adoption .adoption-main .adoption-section .lg1ad {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  .adoption .adoption-main .adoption-section .lg1ad {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  .adoption .adoption-main .adoption-section .lg1ad {
     display: none;
   }
 }
 @media only screen and (max-width: 575px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg1ad {
+  .adoption .adoption-main .adoption-section .lg1ad {
     display: none;
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .lg2ad {
+.adoption .adoption-main .adoption-section .lg2ad {
   grid-area: lg2ad;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  .adoption .adoption-main .adoption-section .lg2ad {
     display: none;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  .adoption .adoption-main .adoption-section .lg2ad {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  .adoption .adoption-main .adoption-section .lg2ad {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  .adoption .adoption-main .adoption-section .lg2ad {
     display: none;
   }
 }
 @media only screen and (max-width: 575px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg2ad {
+  .adoption .adoption-main .adoption-section .lg2ad {
     display: none;
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .lg3ad {
+.adoption .adoption-main .adoption-section .lg3ad {
   grid-area: lg3ad;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  .adoption .adoption-main .adoption-section .lg3ad {
     display: none;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  .adoption .adoption-main .adoption-section .lg3ad {
     display: none;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  .adoption .adoption-main .adoption-section .lg3ad {
     display: none;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  .adoption .adoption-main .adoption-section .lg3ad {
     display: none;
   }
 }
 @media only screen and (max-width: 575px) {
-  .adoptar .adoptar-main .adoptar-seccion .lg3ad {
+  .adoption .adoption-main .adoption-section .lg3ad {
     display: none;
   }
 }
-.adoptar .adoptar-main .adoptar-seccion .ds1ad {
+.adoption .adoption-main .adoption-section .ds1ad {
   grid-area: ds1ad;
   padding: 0 1vw;
 }
-.adoptar .adoptar-main .adoptar-seccion .ds2ad {
+.adoption .adoption-main .adoption-section .ds2ad {
   grid-area: ds2ad;
   padding: 0 1vw;
 }
-.adoptar .adoptar-main .adoptar-seccion .ds3ad {
+.adoption .adoption-main .adoption-section .ds3ad {
   grid-area: ds3ad;
   padding: 0 1vw;
 }
-.adoptar .adoptar-main .adoptar-seccion img {
+.adoption .adoption-main .adoption-section img {
   max-width: 100%;
   height: auto;
 }
-.adoptar .adoptar-main .adoptar-seccion div p {
+.adoption .adoption-main .adoption-section div p {
   margin-bottom: 30px;
   font-family: "Titillium Web", sans-serif;
   font-style: italic;
 }
-.adoptar .adoptar-main .adoptar-seccion .nombres {
+.adoption .adoption-main .adoption-section .names {
   font-weight: bold;
 }
 
-.colaborar .colaborar-main {
+.colaboration .colaboration-main {
   padding-top: 40px;
 }
-.colaborar .colaborar-main .colaborar-seccion {
+.colaboration .colaboration-main .colaboration-section {
   border-radius: 30px;
   border: 2px;
   border-style: solid;
@@ -652,26 +652,26 @@ footer .footer-iconos .derechos p {
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
-.colaborar .colaborar-main .colaborar-seccion div {
+.colaboration .colaboration-main .colaboration-section div {
   justify-self: center;
   align-self: center;
   max-width: 25%;
   min-width: 300px;
 }
-.colaborar .colaborar-main .colaborar-seccion div p {
+.colaboration .colaboration-main .colaboration-section div p {
   margin-bottom: 15px;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   font-weight: bold;
 }
-.colaborar .colaborar-main .colaborar-seccion div .org-description {
+.colaboration .colaboration-main .colaboration-section div .org-description {
   margin-bottom: 15px;
   text-align: center;
   font-family: "Titillium Web", sans-serif;
   font-style: italic;
   font-weight: lighter;
 }
-.colaborar .colaborar-main .colaborar-seccion div img {
+.colaboration .colaboration-main .colaboration-section div img {
   height: 150px;
   display: block;
   margin-left: auto;
@@ -679,15 +679,15 @@ footer .footer-iconos .derechos p {
   width: 40%;
   margin-bottom: 40px;
 }
-.colaborar .colaborar-main .colaborar-seccion div iframe {
+.colaboration .colaboration-main .colaboration-section div iframe {
   margin: 20px auto;
   max-width: 100%;
 }
 
-.reencuentros .reencuentros-main {
+.reunions .reunions-main {
   padding-top: 40px;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion {
+.reunions .reunions-main .reunions-section {
   border-radius: 30px;
   border: 2px;
   border-style: solid;
@@ -700,7 +700,7 @@ footer .footer-iconos .derechos p {
   width: 93vw;
 }
 @media only screen and (min-width: 1400px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 23% 77%;
@@ -711,7 +711,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
@@ -722,7 +722,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-rows: 1fr;
     grid-template-columns: 30% 70%;
@@ -733,7 +733,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -745,7 +745,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -757,7 +757,7 @@ footer .footer-iconos .derechos p {
   }
 }
 @media only screen and (max-width: 575px) {
-  .reencuentros .reencuentros-main .reencuentros-seccion {
+  .reunions .reunions-main .reunions-section {
     display: grid;
     grid-auto-columns: 1fr;
     grid-auto-rows: 1fr;
@@ -768,61 +768,61 @@ footer .footer-iconos .derechos p {
     vertical-align: middle;
   }
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .img1re {
+.reunions .reunions-main .reunions-section .img1re {
   grid-area: img1re;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .img2re {
+.reunions .reunions-main .reunions-section .img2re {
   grid-area: img2re;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .img3re {
+.reunions .reunions-main .reunions-section .img3re {
   grid-area: img3re;
   max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .ds1re {
+.reunions .reunions-main .reunions-section .ds1re {
   grid-area: ds1re;
   padding: 0 1vw;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .ds2re {
+.reunions .reunions-main .reunions-section .ds2re {
   grid-area: ds2re;
   padding: 0 1vw;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .ds3re {
+.reunions .reunions-main .reunions-section .ds3re {
   grid-area: ds3re;
   padding: 0 1vw;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion img {
+.reunions .reunions-main .reunions-section img {
   max-width: 100%;
   height: auto;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion div p {
+.reunions .reunions-main .reunions-section div p {
   margin-bottom: 30px;
   font-family: "Titillium Web", sans-serif;
   font-style: italic;
 }
-.reencuentros .reencuentros-main .reencuentros-seccion .nombres {
+.reunions .reunions-main .reunions-section .names {
   font-weight: bold;
 }
 
-.contacto-main {
+.contact-main {
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
 }
-.contacto-main .contacto-main-form {
+.contact-main .contact-main-form {
   width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
-.contacto-main .contacto-main-form div {
+.contact-main .contact-main-form div {
   margin: 40px auto 0px auto;
   border-radius: 30px;
   border: 1px;
@@ -834,7 +834,7 @@ footer .footer-iconos .derechos p {
   left: 35%;
   width: 40em;
 }
-.contacto-main .contacto-main-form div h1 {
+.contact-main .contact-main-form div h1 {
   font-size: 30px;
   color: var(--navsFontColor);
   font-family: "Titillium Web", sans-serif;
@@ -842,19 +842,19 @@ footer .footer-iconos .derechos p {
   text-align: center;
   margin-bottom: 30px;
 }
-.contacto-main .contacto-main-form div form input {
+.contact-main .contact-main-form div form input {
   padding-left: 10px;
   font-family: "Titillium Web", sans-serif;
   margin: auto auto 20px auto;
   width: 100%;
 }
-.contacto-main .contacto-main-form div form select {
+.contact-main .contact-main-form div form select {
   padding-left: 10px;
   font-family: "Titillium Web", sans-serif;
   margin: auto auto 20px auto;
   width: 100%;
 }
-.contacto-main .contacto-main-form div form textarea {
+.contact-main .contact-main-form div form textarea {
   margin: auto auto 20px auto;
   padding: 5px 10px;
   height: 200px;
@@ -862,7 +862,7 @@ footer .footer-iconos .derechos p {
   font-family: "Titillium Web", sans-serif;
   resize: none;
 }
-.contacto-main .contacto-main-form .quienes-somos {
+.contact-main .contact-main-form .who-are-we {
   border: none;
   margin: 40px auto 0px auto;
   padding: 30px;
@@ -873,16 +873,16 @@ footer .footer-iconos .derechos p {
   font-family: "Titillium Web", sans-serif;
   font-style: normal;
 }
-.contacto-main .contacto-main-form .quienes-somos p {
+.contact-main .contact-main-form .who-are-we p {
   margin-bottom: 30px;
 }
-.contacto-main .contacto-main-form .quienes-somos .mision, .contacto-main .contacto-main-form .quienes-somos .objetivos {
+.contact-main .contact-main-form .who-are-we .mission, .contact-main .contact-main-form .who-are-we .objectives {
   font-family: "Titillium Web", sans-serif;
   font-weight: bolder;
   font-size: 25px;
   font-style: normal;
 }
-.contacto-main .contacto-main-form button {
+.contact-main .contact-main-form button {
   width: 100%;
   background-color: #1AEADD;
   border: none;
@@ -897,7 +897,7 @@ footer .footer-iconos .derechos p {
   color: black;
   cursor: pointer;
 }
-.contacto-main .contacto-main-form button:hover {
+.contact-main .contact-main-form button:hover {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
   background-size: 400% 400%;
   animation: Gradient 2s ease infinite;

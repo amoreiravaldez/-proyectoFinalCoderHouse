@@ -1,12 +1,12 @@
 @import '../base/variables';
 
-.contacto-main {
+.contact-main {
 
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     
-    .contacto-main-form {
+    .contact-main-form {
         
         width: 100%;
         display: flex;
@@ -63,7 +63,7 @@
             }
         }
 
-        .quienes-somos {
+        .who-are-we {
 
             border: none;
             margin: 40px auto 0px auto;
@@ -78,7 +78,7 @@
             p {
                 margin-bottom: 30px;
             }
-            .mision, .objetivos {
+            .mission, .objectives {
                 font-family: 'Titillium Web', sans-serif;
                 font-weight: bolder;
                 font-size: 25px;
