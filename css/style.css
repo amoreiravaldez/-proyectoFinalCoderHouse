@@ -404,6 +404,8 @@ footer .footer-iconos .derechos p {
   font-size: 22px;
   font-family: "Titillium Web", sans-serif;
   cursor: pointer;
+  color: black;
+  font-weight: normal;
 }
 .index section div form button:hover {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #1AEADD);
@@ -662,6 +664,13 @@ footer .footer-iconos .derechos p {
   font-family: "Titillium Web", sans-serif;
   font-weight: bold;
 }
+.colaborar .colaborar-main .colaborar-seccion div .org-description {
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+}
 .colaborar .colaborar-main .colaborar-seccion div img {
   height: 150px;
   display: block;
@@ -860,9 +869,9 @@ footer .footer-iconos .derechos p {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
   font-family: "Titillium Web", sans-serif;
-  font-weight: bold;
+  color: black;
   cursor: pointer;
 }
 .contacto-main .contacto-main-form button:hover {
